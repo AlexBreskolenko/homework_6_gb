@@ -196,3 +196,21 @@ img {
   color: #f16d7f;
   font-family: "Lato-Regular";
 }
+
+/*----------footer-----------*/
+.footer {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-btn {
+  margin-bottom: 60px;
+  cursor: pointer;
+  border: 1px solid #f26376;
+  padding: 15px 39px;
+  font-family: "Lato-Regular";
+  font-weight: 400;
+  font-size: 16px;
+  color: #f26376;
+}
