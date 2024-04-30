@@ -9,6 +9,12 @@ body {
   margin: 0 auto;
 }
 
+img {
+  display: block;
+}
+
+/*----------------header---------------*/
+
 .header {
   height: 75px;
   background-color: #222222;
@@ -39,4 +45,23 @@ body {
 
 .header-box__cursor {
   cursor: pointer;
+}
+
+/*-----------------main-----------------*/
+.main-section__one {
+  display: flex;
+}
+
+.section-one__block {
+  border-left: 12px solid #f16d7f;
+  padding-left: 16px;
+  margin-top: 290px;
+  margin-left: 92px;
+  height: 92px;
+}
+
+.section-one__block h2 {
+  font-weight: 900;
+  font-size: 48px;
+  color: #222;
 }
