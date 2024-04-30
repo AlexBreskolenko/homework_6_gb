@@ -3,3 +3,40 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 75px;
+  background-color: #222222;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-section__box-icon_one {
+  display: flex;
+  gap: 41px;
+  align-items: flex-end;
+}
+
+.header-section__box-icon_two {
+  display: flex;
+  gap: 33px;
+}
+
+.header-box__cursor {
+  cursor: pointer;
+}
